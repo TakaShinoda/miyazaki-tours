@@ -27,7 +27,7 @@
     <div>
       <button v-on:click="AnonymousSignIn">※匿名ログイン</button>
     </div>
-
+    
   </div>
 </template>
 
