@@ -20,10 +20,12 @@
         </table>
     </div>
     <br>
-
-    <div class="item" v-for="(todo, index) in horikiriOpinions" v-bind:key="index">
-      {{ todo.name }}
-    </div>
+    
+    <table border="1" width="500" align="center" cellspacing="0" cellpadding="1">
+      <tr class="item" v-for="(todo, index) in horikiriOpinions" v-bind:key="index">
+        <td>{{ todo.name }}</td>
+      </tr>
+    </table>
 
     <div>
       <textarea rows="10" cols="60" v-model="newTodoName"></textarea>
