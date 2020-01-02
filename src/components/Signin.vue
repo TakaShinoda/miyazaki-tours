@@ -9,16 +9,25 @@
     </div>
 
     <br>
-　　 <!-- googleのアカウントでログイン。アカウントがなければ新規に作成されます。 -->
+　　 <!-- googleのアカウントでログイン -->
     <div>
       <button v-on:click="signInWithGoogle">Googleアカウントでログイン</button>
     </div>
-  
+
+    
     <!-- サインアップページ遷移ボタン -->
     <p>
       アカウントをお持ちではない方
       <router-link to="/signup">新規作成</router-link>
     </p>
+
+        <br />
+
+    <!-- googleのアカウントでログイン -->
+    <div>
+      <button>登録しないですすむ</button>
+    </div>
+    
   </div>
 </template>
 
