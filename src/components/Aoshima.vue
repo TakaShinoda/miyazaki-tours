@@ -19,15 +19,13 @@
         </tr>
         </table>
     </div>
-    <br>
-    
+    <br />
+
     <table border="1" width="500" align="center" cellspacing="0" cellpadding="1">
       <tr class="item" v-for="(todo, index) in aoshimaOpinions" v-bind:key="index">
         <td>{{ todo.name }}</td>
       </tr>
     </table>
-   
-
     <br />
     
     <div>
