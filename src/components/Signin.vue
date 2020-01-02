@@ -25,9 +25,9 @@
 
     <!-- googleのアカウントでログイン -->
     <div>
-      <button>登録しないですすむ</button>
+      <button v-on:click="AnonymousSignIn">匿名ログイン</button>
     </div>
-    
+
   </div>
 </template>
 
@@ -71,6 +71,24 @@ export default {
         .catch(error => {
             alert(error.message);
         });
+    },
+    //匿名ログイン
+    AnonymousSignIn: function() {
+       firebase
+          .auth()
+          .signInAnonymously()
+          .then(e => {
+            // ログイン成功
+            console.log(e)
+            alert("success : " +  "匿名でログインしました");
+            this.$router.push("/tourlist");
+            }).catch((error) => {
+              // エラーメッセージ
+              var errorCode = error.code;
+              var errorMessage = error.message;
+              console.log('エラーメッセージ', errorCode, errorMessage);
+              alert(errorCode, errorMessage);
+            });
       }
   }
 };
