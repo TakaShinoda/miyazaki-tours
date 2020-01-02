@@ -17,7 +17,7 @@
     
     <!-- サインアップページ遷移ボタン -->
     <p>
-      アカウントをお持ちではない方
+      アカウントをお持ちではない方は =>
       <router-link to="/signup">新規作成</router-link>
     </p>
 
@@ -25,7 +25,7 @@
 
     <!-- googleのアカウントでログイン -->
     <div>
-      <button v-on:click="AnonymousSignIn">匿名ログイン</button>
+      <button v-on:click="AnonymousSignIn">※匿名ログイン</button>
     </div>
 
   </div>
