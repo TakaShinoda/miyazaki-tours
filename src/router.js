@@ -18,7 +18,6 @@ let router =  new Router({
         path: '/',
         name: 'home',
         component: Home,
-        meta: {title: "Miyazaki Tourist"}
     },
     {
         path: '/signup',
