@@ -15,7 +15,7 @@
         </tr>
         <tr>
           <th bgcolor="#dcdcdc" width="100">現在地から</th>
-          <td><a href= "https://www.google.com/maps/dir/?api=1&destination=${堀切峠}">現在地からのアクセス</a></td>
+          <td><a href= "https://www.google.com/maps/dir/?api=1&destination=${堀切峠}" target="_blank">現在地からのアクセス</a></td>
         </tr>
         <tr>
           <th bgcolor="#dcdcdc" width="100">交通アクセス</th>
