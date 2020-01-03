@@ -6,7 +6,13 @@
 </template>
 
 <script>
-
+export default {
+  name: "Home",
+  mounted: function(){
+		document.title = "ひなた掲示板";
+    document.querySelector("meta[property='description']").setAttribute('content', "宮崎県の観光地口コミサイトです");
+	},
+};
 </script>
 
 <style>
