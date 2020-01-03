@@ -42,10 +42,6 @@ export default {
       password: ""
     };
   },
-  mounted: function(){
-		document.title = "ログイン";
-    document.querySelector("meta[property='description']").setAttribute('content', "ログイン画面です");
-	},
   methods: {
     // signinボタンを押したときに実行されるfunction
     signIn: function() {
