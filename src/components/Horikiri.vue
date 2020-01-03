@@ -26,6 +26,7 @@
         <td>{{ todo.name }}</td>
       </tr>
     </table>
+    <br />
 
     <div>
       <textarea rows="10" cols="60" v-model="newTodoName"></textarea>
