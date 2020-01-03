@@ -14,6 +14,10 @@
           <td><a href="https://goo.gl/maps/m2F3v9yePSVYWJhY8" target="_blank">宮崎大学からのアクセス</a></td>
         </tr>
         <tr>
+          <th bgcolor="#dcdcdc" width="100">現在地から</th>
+          <td><a href= "https://www.google.com/maps/dir/?api=1&destination=${鬼の洗濯板}">現在地からのアクセス</a></td>
+        </tr>
+        <tr>
           <th bgcolor="#dcdcdc" width="100">交通アクセス</th>
           <td>青島駅から徒歩14分</td>
         </tr>

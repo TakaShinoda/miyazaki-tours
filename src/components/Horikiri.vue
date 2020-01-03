@@ -14,6 +14,10 @@
           <td><a href="https://goo.gl/maps/mosAVMi6nM1ejCbK8" target="_blank">宮崎大学からのアクセス</a></td>
         </tr>
         <tr>
+          <th bgcolor="#dcdcdc" width="100">現在地から</th>
+          <td><a href= "https://www.google.com/maps/dir/?api=1&destination=${堀切峠}">現在地からのアクセス</a></td>
+        </tr>
+        <tr>
           <th bgcolor="#dcdcdc" width="100">交通アクセス</th>
           <td>バス日南線「堀切峠」下車</td>
         </tr>
